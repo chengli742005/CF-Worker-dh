@@ -39,26 +39,7 @@ const config = {
   },
   lists: [                            //Url list
     {
-      name:"导航",
-      icon:"code",
-      list:[
-        {
-          url:"https://chengli742005.github.io/ ",
-          name:"github导航",
-          desc:"项目名chengli742005.github.io"
-        },
-        {
-          url:"https://worker-dh.chengli742005.workers.dev/",
-          name:"cf-worker导航",
-          desc:"项目名CF-Worker-dh"
-        },
-        {
-          url:"https://chatgpt-next-web-production-4294.up.railway.app/",
-          name:"railway chatgtp",
-          desc:"站长chatgtp openai"
-        },
-      ]
-    },name:"技术",
+      name:"技术",
       icon:"code",
       list:[
         {

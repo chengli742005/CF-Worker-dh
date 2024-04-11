@@ -55,7 +55,7 @@ const config = {
         {
           url:"https://chatgpt-next-web-production-4294.up.railway.app/",
           name:"railway chatgtp",
-          desc:"站长chatgtp openai"
+          desc:"站长chatgtp openid"
         },
       ]
     },name:"技术",
