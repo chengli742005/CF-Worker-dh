@@ -6,7 +6,7 @@ const config = {
   subtitle: "Cloudflare Workers Dir", //write your website subtitle
   logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                     //use hitokoto or not
-  search:true,                        //enable search function
+  search:false,                        //enable search function
   search_engine:[                     //choose search engine which you use
     {
       name:"百 度",
@@ -25,7 +25,7 @@ const config = {
       template:"https://www.sogou.com/web?query=$s"
     }
   ],
-  selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
+  selling_ads: false,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
     domain:"example.com",
     price:500,                        //domain price
@@ -38,8 +38,8 @@ const config = {
     ]                        
   },
   lists: [                            //Url list
-    {
-      name:"导航",
+  	{
+  		name:"导航",
       icon:"code",
       list:[
         {
@@ -58,33 +58,20 @@ const config = {
           desc:"站长chatgtp openai"
         },
       ]
-    },name:"技术",
+  	},
+    {
+      name:"我的网站",
       icon:"code",
       list:[
         {
-          url:"https://oschina.net/",
+          url:"xxx",
           name:"开源中国",
-          desc:"程序员集散地"
-        },
-        {
-          url:"https://v2ex.com",
-          name:"V2EX",
-          desc:"程序员集散地"
-        },
-        {
-          url:"https://csdn.net/",
-          name:"CSDN技术社区",
-          desc:"程序员集散地"
-        },
-        {
-          url:"https://github.com/",
-          name:"Github",
           desc:"程序员集散地"
         },
       ]
     },
     {
-      name:"学习",
+      name:"技术",
       icon:"graduation cap",
       list:[
         {
